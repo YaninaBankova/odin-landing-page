@@ -42,8 +42,15 @@ header {
 
 a {
     text-decoration: none;
+}
+
+
+.text,
+a,
+.description p {
     color: #e5e7eb;
     font-size: 18px;
+    font-weight: 300;
 }
 
 ul {
@@ -66,17 +73,18 @@ h1 {
 }
 
 .description p {
-    color: #e5e7eb;
-    font-size: 18px;
     margin-bottom: 8px;
 }
 
-.description button {
+button {
     background-color: #3882f6;
     color: inherit;
     font-weight: bold;
     padding: 8px 32px;
     border-radius: 8px;
+}
+
+.description button {
     border: none;
     align-self: flex-start;
 }
@@ -102,4 +110,82 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.ad {
+    padding: 84px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue {
+    background-color: #3882f6;
+    color: #f9faf8;
+    width: 55%;
+    padding: 32px 64px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.ad button {
+    border: 2px solid #f9faf8;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 300;
+    padding: 84px 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+blockquote {
+    font-style: italic;
+    align-self: center;
+    
+}
+
+.quote p {
+    font-weight: bold;
+    font-size: 24px;
+    align-self: flex-end;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    text-align: center;
+    padding: 38px;
+}
+
+.blank-image {
+    width: 175px;
+    height: 175px;
+    border: 4px solid #3882f6;
+    border-radius: 15px;
+}
+
+.figures {
+    padding-bottom: 84px;
+    display: flex;
+    justify-content: center;
+    gap: 42px;
+}
+
+.figures figcaption {
+    color: #5d6571;
+    text-align: center;
+    width: 175px;
+    margin: 8px;
 }
